@@ -1,0 +1,57 @@
+
+.navbar{
+    display:block;
+    height: 100px;
+    width: 1100px;
+    background-color: rgb(162, 132, 94);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 3px solid black;
+    border-style: dashed;
+}
+.col{
+  font-size: 22px;
+  font-weight: lighter;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-display: black;
+  color:black
+  
+}
+a{
+  color: black;
+}
+h1{
+    text-align: left;
+}
+
+.about{
+  text-align: center;
+}
+.column{
+padding:5px;
+}
+
+ 
+.id{
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+}
+
+.row1{
+  flex:33.3%;
+  padding: 5px;
+ 
+  
+}
+.column1{
+  display: flex;
+  padding-top: 10%;
+
+}
+
+h5{
+  text-align: center;
+}

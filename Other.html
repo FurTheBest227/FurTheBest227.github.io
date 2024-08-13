@@ -8,11 +8,32 @@
    <title>Document</title>
 </head>
 <body>
+    <script>
+ 
+
+   function enlarge() {
+     document.getElementById("img1").width = "600";
+     document.getElementById("img1").height = "600";
+     document.getElementById("img2").width = "600";
+     document.getElementById("img2").height = "600";
+     document.getElementById("img3").width = "600";
+     document.getElementById("img3").height = "600";
+   }
+   function reset(){
+    document.getElementById("img1").width = "350";
+     document.getElementById("img1").height = "350";
+     document.getElementById("img2").width = "350";
+     document.getElementById("img2").height = "350";
+     document.getElementById("img3").width = "350";
+     document.getElementById("img3").height = "350";
+   }
+    </script>
 <div class="container" style="background-color: rgb(162, 132, 94);">
-   <div class = "row1"><img src = "./Style Guide.jpg" alt = Style width="350" height="350">
-   <div class = "row1"><img src = "./Homepage Wireframe.jpg" alt = Home width="350" height="350">
-   <div class = "row1"><img src = "./Business Wireframe(sell).jpg" alt = Business width="350" height="350">
-   </div>
+<div class ="column1">
+   <div class = "row1"><img onClick = "enlarge()"id ="img1" src = "./Style Guide.jpg" alt = Style width="350" height="350"> <Button onClick =reset()>Reset</Button></div>
+   <div class = "row1"><img id = "img2" src = "./Homepage Wireframe.jpg" alt = Home width="350" height="350"><Button onClick =reset()>Reset</Button></div>
+   <div class = "row1"><img id = "img3" src = "./Business Wireframe(sell).jpg" alt = Business width="350" height="350"><Button onClick =reset()>Reset</Button></div>
+ </div>
 </div>
 </body>
 </html>
